@@ -1,0 +1,33 @@
+default  partial alphanumeric_keys modifier_keys
+xkb_symbols "deseret" {
+    include "us(basic)"
+
+    key <AD01> { [U1042B, U10403], [U10431, U10409]                   }; // Long Ah, Short Ah
+    key <AD02> { [U10436, U1040E]                                     }; // Wu
+    key <AD03> { [U10429, U10401], [U1042F, U10407]                   }; // Long E, Short E
+    key <AD04> { [U10449, U10421]                                     }; // Er
+    key <AD05> { [U1043B, U10413], [U10443, U1041B]                   }; // Tee, Eth
+    key <AD06> { [U10437, U1040F], [],               [U1044F, U10427] }; // Yee, Ew
+    key <AD07> { [U1042D, U10405], [U10433, U1040B], [U10435, U1040D] }; // Long Oo, Short Oo, Ow
+    key <AD08> { [U10428, U10400], [U1042E, U10406], [U10434, U1040C] }; // Long I, Short I, Ay
+    key <AD09> { [U1042C, U10404], [U10432, U1040A], [U1044E, U10426] }; // Long O, Short O, Oi
+    key <AD10> { [U10439, U10411]                                     }; // Pee
+
+    key <AC01> { [U1042B, U10402], [U10430, U10408] }; // Long A, Short A
+    key <AC02> { [U10445, U1041D], [U10447, U1041F] }; // Es, Esh
+    key <AC03> { [U1043C, U10414], [U10444, U1041C] }; // Dee, Thee
+    key <AC04> { [U10441, U10419]                   }; // Ef
+    key <AC05> { [U10440, U10418]                   }; // Gay
+    key <AC06> { [U10438, U10410]                   }; // H
+    key <AC07> { [U1043E, U10416], [U10448, U10420] }; // Jee, Zhee
+    key <AC08> { [U1043F, U10417]                   }; // Kay
+    key <AC09> { [U1044A, U10422]                   }; // El
+
+    key <AB01> { [U10446, U1041E]                   }; // Zee
+    key <AB02> { [ISO_Group_Latch, ISO_Group_Latch] };
+    key <AB03> { [U1043D, U10415]                   }; // Chee
+    key <AB04> { [U10442, U1041A]                   }; // Vee
+    key <AB05> { [U1043A, U10412]                   }; // Bee
+    key <AB06> { [U1044C, U10424], [U1044D, U10425] }; // En, Eng
+    key <AB07> { [U1044B, U10423]                   }; // Em
+};

@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <style type="text/css">
+            .key {
+                display: inline-block;
+                box-sizing: border-box;
+                width: 50px;
+                height: 50px;
+                border: 1px solid black;
+                position: relative;
+                vertical-align: top;
+                text-align: center;
+                color: purple;
+                padding-top: 9px;
+                font-family: sans-serif;
+                font-height: 20px;
+            }
+            .backspace {
+                width: 100px;
+            }
+            .tab, .backslash {
+                width: 75px;
+            }
+            .caps {
+                width: 90px;
+            }
+            .enter {
+                width: 110px;
+            }
+            .shift {
+                width: 125px;
+            }
+            .control, .super, .alt, .menu {
+                width: 60px;
+            }
+            .space {
+                width: 330px;
+            }
+            .super {
+                color: blue;
+            }
+            .dipthong {
+                color: red;
+            }
+            .key div {
+                position: absolute;
+                width: 25px;
+                height: 25px;
+            }
+            .level0 {
+                left: 0%;
+                top: 50%;
+                color: gray;
+            }
+            .level1 {
+                left: 0%;
+                top: 0%;
+                color: black;
+            }
+            .level2 {
+                left: 50%;
+                top: 0%;
+                color: blue;
+            }
+            .level3 {
+                left: 50%;
+                top: 50%;
+                color: red;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="row">
+            <div class="key">
+                <div class="level0">`</div>
+            </div><div class="key">
+                <div class="level0">1</div>
+            </div><div class="key">
+                <div class="level0">2</div>
+            </div><div class="key">
+                <div class="level0">3</div>
+            </div><div class="key">
+                <div class="level0">4</div>
+            </div><div class="key">
+                <div class="level0">5</div>
+            </div><div class="key">
+                <div class="level0">6</div>
+            </div><div class="key">
+                <div class="level0">7</div>
+            </div><div class="key">
+                <div class="level0">8</div>
+            </div><div class="key">
+                <div class="level0">9</div>
+            </div><div class="key">
+                <div class="level0">0</div>
+            </div><div class="key">
+                <div class="level0">-</div>
+            </div><div class="key">
+                <div class="level0">=</div>
+            </div><div class="key backspace" title="Backspace">⌫</div>
+        </div>
+        <div class="row">
+            <div class="key tab" title="Tab">⇥</div><div class="key">
+                <div class="level0">Q</div>
+                <div class="level1" title="Long Ah /ɔː/">𐐃</div>
+                <div class="level2" title="Short Ah /ɒ/">𐐉</div>
+            </div><div class="key">
+                <div class="level0">W</div>
+                <div class="level1" title="Wu /w/">𐐎</div>
+            </div><div class="key">
+                <div class="level0">E</div>
+                <div class="level1" title="Long E /eɪ/">𐐁</div>
+                <div class="level2" title="Short E /ɛ/">𐐇</div>
+            </div><div class="key">
+                <div class="level0">R</div>
+                <div class="level1" title="Er /r/">𐐡</div>
+            </div><div class="key">
+                <div class="level0">T</div>
+                <div class="level1" title="Tee /t/">𐐓</div>
+                <div class="level2" title="Eth /θ/">𐐛</div>
+            </div><div class="key">
+                <div class="level0">Y</div>
+                <div class="level1" title="Yee /j/">𐐏</div>
+                <div class="level3" title="Ew /juː/">𐐧</div>
+            </div><div class="key">
+                <div class="level0">U</div>
+                <div class="level1" title="Long Oo /uː/">𐐅</div>
+                <div class="level2" title="Short Oo /ʊ/">𐐋</div>
+                <div class="level3" title="Ow /aʊ/">𐐍</div>
+            </div><div class="key">
+                <div class="level0">I</div>
+                <div class="level1" title="Long I /iː/">𐐀</div>
+                <div class="level2" title="Short I /ɪ/">𐐆</div>
+                <div class="level3" title="Ay /aɪ/">𐐌</div>
+            </div><div class="key">
+                <div class="level0">O</div>
+                <div class="level1" title="Long O /oʊ/">𐐄</div>
+                <div class="level2" title="Short O /ʌ/">𐐊</div>
+                <div class="level3" title="Oi /ɔɪ/">𐐦</div>
+            </div><div class="key">
+                <div class="level0">P</div>
+                <div class="level1" title="Pee /p/">𐐑</div>
+            </div><div class="key">
+                <div class="level0">[</div>
+            </div><div class="key">
+                <div class="level0">]</div>
+            </div><div class="key backslash">
+                <div class="level0">\</div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="key caps" title="Caps Lock">🄰</div><div class="key">
+                <div class="level0">A</div>
+                <div class="level1" title="Long A /ɑː/">𐐂</div>
+                <div class="level2" title="Short A /æ/">𐐈</div>
+            </div><div class="key">
+                <div class="level0">S</div>
+                <div class="level1" title="Es /s/">𐐝</div>
+                <div class="level2" title="Esh /ʃ/">𐐟</div>
+            </div><div class="key">
+                <div class="level0">D</div>
+                <div class="level1" title="Dee /d/">𐐔</div>
+                <div class="level2" title="Thee /ð/">𐐜</div>
+            </div><div class="key">
+                <div class="level0">F</div>
+                <div class="level1" title="Ef /f/">𐐙</div>
+            </div><div class="key">
+                <div class="level0">G</div>
+                <div class="level1" title="Gay /ɡ/">𐐘</div>
+            </div><div class="key">
+                <div class="level0">H</div>
+                <div class="level1" title="H /h/">𐐐</div>
+            </div><div class="key">
+                <div class="level0">J</div>
+                <div class="level1" title="Jee /dʒ/">𐐖</div>
+                <div class="level2" title="Zhee /ʒ/">𐐠</div>
+            </div><div class="key">
+                <div class="level0">K</div>
+                <div class="level1" title="Kay /k/">𐐗</div>
+            </div><div class="key">
+                <div class="level0">L</div>
+                <div class="level1" title="El /l/">𐐢</div>
+            </div><div class="key">
+                <div class="level0">;</div>
+            </div><div class="key">
+                <div class="level0">'</div>
+            </div><div class="key enter" title="Enter">⏎</div>
+        </div>
+        <div class="row">
+            <div class="key shift" title="Shift">⇧</div><div class="key">
+                <div class="level0">Z</div>
+                <div class="level1" title="Zee /z/">𐐞</div>
+            </div><div class="key">
+                <div class="level0">X</div>
+                <div class="dipthong" title="Dipthong">Æ</div>
+            </div><div class="key">
+                <div class="level0">C</div>
+                <div class="level1" title="Chee /tʃ/">𐐕</div>
+            </div><div class="key">
+                <div class="level0">V</div>
+                <div class="level1" title="Vee /v/">𐐚</div>
+            </div><div class="key">
+                <div class="level0">B</div>
+                <div class="level1" title="Bee /b/">𐐒</div>
+            </div><div class="key">
+                <div class="level0">N</div>
+                <div class="level1" title="En /n/">𐐤</div>
+                <div class="level2" title="Eng /ŋ/">𐐥</div>
+            </div><div class="key">
+                <div class="level0">M</div>
+                <div class="level1" title="Em /m/">𐐣</div>
+            </div><div class="key">
+                <div class="level0">,</div>
+            </div><div class="key">
+                <div class="level0">.</div>
+            </div><div class="key">
+                <div class="level0">?</div>
+            </div><div class="key shift" title="Shift">⇧</div>
+        </div>
+        <div class="row">
+            <div class="key control" title="Control">✲</div><div class="key super" title="Super">❖</div><div class="key alt" title="Alt">⎇</div><div class="key space" title="Space"> </div><div class="key alt" title="Alt">⎇</div><div class="key super" title="Super">❖</div><div class="key menu" title="Menu">≡</div><div class="key control" title="Control">✲</div>
+        </div>
+    </body>
+</html>
